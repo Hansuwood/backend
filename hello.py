@@ -161,4 +161,4 @@ def sendMessage():
     return jsonify({'status': 'error', 'message': '지원하지 않는 메서드입니다'}), 405
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001) 
+    app.run(host='0.0.0.0', port=5001)
